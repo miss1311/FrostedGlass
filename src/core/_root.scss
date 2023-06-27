@@ -10,7 +10,7 @@
 	/*
 	 * Background image variables
 	 */
-	 --background-image: url('https://cdn.discordapp.com/attachments/1011950397214163114/1021618121062219796/alena-aenami-cold-1k.jpg'); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+	--background-image: url('https://cdn.discordapp.com/attachments/1011950397214163114/1021618121062219796/alena-aenami-cold-1k.jpg'); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
   	--background-image-blur: 2px; /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
   	--background-image-size: cover; /* Size of the background image | DEFAUT: cover | OPTIONS: cover, contain */
   	--background-image-position: center; /* Position of background image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
@@ -46,7 +46,7 @@
 	--left-brightness: 0.77; /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
 	--middle-brightness: 0.70; /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
 	--right-brightness: 0; /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
-	--popout-modal-brightness: 0.9; /* Brightness for popouts and modals | 0 - 1 (decimals allowed) | DEFAULT: 0.75 */
+	--popout-modal-brightness: 0.7; /* Brightness for popouts and modals | 0 - 1 (decimals allowed) | DEFAULT: 0.75 */
 
 	/*
 	 * Gradient variables
