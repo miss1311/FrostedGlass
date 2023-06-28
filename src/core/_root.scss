@@ -33,7 +33,7 @@
 	 * User Popout variables
 	 * This will only affect the user profile (when clicking on a member in the members list)
 	 */
-	--popout-image: url("https://cdn.discordapp.com/attachments/1090478191690391554/1123408670043144272/alena-aenami-cold-1k.jpg"); /* Background image for popouts and modals | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+	--popout-image: url(--background-image); /* Background image for popouts and modals | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
 	--popout-image-blur: 5px; /* Blur intensity of --popout-image | Must end in px | DEFAULT: 5px */
 	--popout-image-size: cover; /* Size of the popout/modal image | DEFAUT: cover | OPTIONS: cover, contain */
 	--popout-image-position: center; /* Position of popout/modal image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
@@ -60,7 +60,7 @@
 	--left-brightness: 0.77; /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
 	--middle-brightness: 0.70; /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
 	--right-brightness: 0; /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
-	--popout-modal-brightness: 0.7; /* Brightness for popouts and modals | 0 - 1 (decimals allowed) | DEFAULT: 0.75 */
+	--popout-modal-brightness: 0.9; /* Brightness for popouts and modals | 0 - 1 (decimals allowed) | DEFAULT: 0.75 */
 
 	/*
 	 * Gradient variables
