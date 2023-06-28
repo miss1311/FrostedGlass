@@ -21,16 +21,16 @@
 	 */
 	--popout-image: url('https://cdna.artstation.com/p/assets/images/images/004/577/242/large/alena-aenami-walls1k.jpg?1484701157'); /* Background image for popouts and modals | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
 	--popout-image-blur: 1.5px; /* Blur intensity of --popout-image | Must end in px | DEFAULT: 5px */
-	--popout-image-size: var(cover); /* Size of the popout/modal image | DEFAUT: cover | OPTIONS: cover, contain */
-	--popout-image-position: var(center); /* Position of popout/modal image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
+	--popout-image-size: cover; /* Size of the popout/modal image | DEFAUT: cover | OPTIONS: cover, contain */
+	--popout-image-position: center; /* Position of popout/modal image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
 
 	/*
 	 * Modal & Popout variables
 	 */
 	--overlay-image: url('https://cdna.artstation.com/p/assets/images/images/004/577/242/large/alena-aenami-walls1k.jpg?1484701157'); /* Background image for popouts and modals | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
 	--overlay-image-blur: 1.5px; /* Blur intensity of --overlay-image | Must end in px | DEFAULT: 5px */
-	--overlay-image-size: var(cover); /* Size of the popout/modal image | DEFAUT: cover | OPTIONS: cover, contain */
-	--overlay-image-position: var(center); /* Position of popout/modal image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
+	--overlay-image-size: cover; /* Size of the popout/modal image | DEFAUT: cover | OPTIONS: cover, contain */
+	--overlay-image-position: center; /* Position of popout/modal image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
 
 	/*
 	 * Home image variables
@@ -46,7 +46,7 @@
 	--left-brightness: 0.77; /* Channels and DM list brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.8 */
 	--middle-brightness: 0.70; /* Chat brightness | 0 - 1 (decimals allowed) | DEFAULT: 0.6 */
 	--right-brightness: 0; /* Members and Now Playing brightness | 0 - 1 (decimals allowed) | DEFAULT: 0 */
-	--popout-modal-brightness: 0.75; /* Brightness for popouts and modals | 0 - 1 (decimals allowed) | DEFAULT: 0.75 */
+	--popout-modal-brightness: 0.8; /* Brightness for popouts and modals | 0 - 1 (decimals allowed) | DEFAULT: 0.75 */
 
 	/*
 	 * Gradient variables
